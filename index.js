@@ -1,9 +1,26 @@
 'use strict'
 
-exports.register = function (plugin, options, next) {
-    var io = require('socket.io')(plugin.servers[0].listener);
+var _ = require('underscore'),
+    defaultOptions = {
+        connectionLabel: ''
+    };
 
-    plugin.expose('io', io);
+exports.register = function (server, options, next) {
+    var io, listener;
+
+    _.defaults(options, defaultOptions);
+
+    if(options.connectionLabel !== '') {
+        if(typeof server.select(options.connectionLabel).connections[0] === 'undefined') {
+            throw "The connection label does not exist";
+        }
+        listener = server.select(options.connectionLabel).connections[0].listener;
+    } else {
+        listener = server.connections[0].listener;
+    }
+
+    io = require('socket.io')(listener);
+    server.expose('io', io);
 
     next();
 };
