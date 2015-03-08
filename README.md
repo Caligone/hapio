@@ -1,6 +1,9 @@
 hapio
 =====
 
+[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/caligone/hapio.svg)](http://isitmaintained.com/project/caligone/hapio "Average time to resolve an issue")
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/caligone/hapio.svg)](http://isitmaintained.com/project/caligone/hapio "Percentage of issues still open")
+
 A simple bridge plugin between HapiJS and SocketIO.
 
 ### Plugin registration
