@@ -1,8 +1,8 @@
 hapio
 =====
 
-[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/caligone/hapio.svg)](http://isitmaintained.com/project/caligone/hapio "Average time to resolve an issue")
-[![Percentage of issues still open](http://isitmaintained.com/badge/open/caligone/hapio.svg)](http://isitmaintained.com/project/caligone/hapio "Percentage of issues still open")
+[![Build Status](https://travis-ci.org/Caligone/hapio.svg?branch=master)](https://travis-ci.org/Caligone/hapio)
+[![Coverage Status](https://coveralls.io/repos/Caligone/hapio/badge.svg?branch=master)](https://coveralls.io/r/Caligone/hapio?branch=master)
 
 A simple bridge plugin between HapiJS and SocketIO.
 
