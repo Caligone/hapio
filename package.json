@@ -1,6 +1,6 @@
 {
   "name": "hapio",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A simple bridge plugin between hapi and socket.io",
   "main": "index.js",
   "scripts": {
