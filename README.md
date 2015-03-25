@@ -1,6 +1,8 @@
 hapio
 =====
 
+[![Dependency Status](https://david-dm.org/Caligone/hapio.svg)](https://david-dm.org/Caligone/hapio)
+[![devDependency Status](https://david-dm.org/Caligone/hapio/dev-status.svg)](https://david-dm.org/Caligone/hapio#info=devDependencies)
 [![Build Status](https://travis-ci.org/Caligone/hapio.svg?branch=master)](https://travis-ci.org/Caligone/hapio)
 [![Coverage Status](https://coveralls.io/repos/Caligone/hapio/badge.svg?branch=master)](https://coveralls.io/r/Caligone/hapio?branch=master)
 
