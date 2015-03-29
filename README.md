@@ -17,14 +17,14 @@ server.connection({ port: 3002, labels: 'mySecondServer' });
 
 //[...]
 
-server.pack.register({
-    	plugin: require('hapio'),
-    	options: {
-			connectionLabel: 'mySecondServer'
-    	}
-    }, 
+server.pack.register([{
+        register: require('hapio'),
+        options: {
+            connectionLabel: 'mySecondServer'
+        }
+    }],
     function(err) {
-    	if (err) throw err;
+        if (err) throw err;
 });
  ```
 
