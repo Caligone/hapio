@@ -6,6 +6,8 @@ hapio
 [![Build Status](https://travis-ci.org/Caligone/hapio.svg?branch=master)](https://travis-ci.org/Caligone/hapio)
 [![Coverage Status](https://coveralls.io/repos/Caligone/hapio/badge.svg?branch=master)](https://coveralls.io/r/Caligone/hapio?branch=master)
 
+[![NPM](https://nodei.co/npm/hapio.png)](https://nodei.co/npm/hapio)
+
 A simple bridge plugin between HapiJS and SocketIO.
 
 ### Plugin registration
