@@ -29,9 +29,9 @@
     "underscore": "^1.8.2"
   },
   "devDependencies": {
-    "code": "^2.1.0",
-    "coveralls": "^2.11.6",
-    "hapi": "^13.0.0",
-    "lab": "^9.1.0"
+    "code": "^2.1.1",
+    "coveralls": "^2.11.9",
+    "hapi": "^13.3.0",
+    "lab": "^10.3.1"
   }
 }
