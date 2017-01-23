@@ -49,6 +49,7 @@ io.on("connection", function(socket) {
 ### hapio options
 
  * `connectionLabel`: (*Not required/Defaults to an empty string*) Connection's label on which socket io will be attached to
+ * `serverOptions`: (*Not required/Defaults to an empty object*) Options to pass to socket.io's constructor.
 
 
 ### A great idea?
