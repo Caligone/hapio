@@ -1,6 +1,8 @@
 hapio
 =====
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Caligone/hapio.svg)](https://greenkeeper.io/)
+
 [![Dependency Status](https://david-dm.org/Caligone/hapio.svg)](https://david-dm.org/Caligone/hapio)
 [![devDependency Status](https://david-dm.org/Caligone/hapio/dev-status.svg)](https://david-dm.org/Caligone/hapio#info=devDependencies)
 [![Build Status](https://travis-ci.org/Caligone/hapio.svg?branch=master)](https://travis-ci.org/Caligone/hapio)
