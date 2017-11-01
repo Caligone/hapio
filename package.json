@@ -25,8 +25,8 @@
   },
   "homepage": "https://github.com/Caligone/hapio",
   "dependencies": {
-    "socket.io": "^2.0.4",
-    "underscore": "^1.8.3"
+    "hoek": "^5.0.1",
+    "socket.io": "^2.0.4"
   },
   "devDependencies": {
     "code": "^5.1.0",
