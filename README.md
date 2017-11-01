@@ -1,14 +1,11 @@
 hapio
 =====
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/Caligone/hapio.svg)](https://greenkeeper.io/)
-
 [![Dependency Status](https://david-dm.org/Caligone/hapio.svg)](https://david-dm.org/Caligone/hapio)
 [![devDependency Status](https://david-dm.org/Caligone/hapio/dev-status.svg)](https://david-dm.org/Caligone/hapio#info=devDependencies)
 [![Build Status](https://travis-ci.org/Caligone/hapio.svg?branch=master)](https://travis-ci.org/Caligone/hapio)
 [![Coverage Status](https://coveralls.io/repos/Caligone/hapio/badge.svg?branch=master)](https://coveralls.io/r/Caligone/hapio?branch=master)
-
-[![NPM](https://nodei.co/npm/hapio.png)](https://nodei.co/npm/hapio)
+[![Greenkeeper badge](https://badges.greenkeeper.io/Caligone/hapio.svg)](https://greenkeeper.io/)
 
 A simple bridge plugin between HapiJS and SocketIO.
 
