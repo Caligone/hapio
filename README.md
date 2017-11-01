@@ -13,33 +13,34 @@ A simple bridge plugin between HapiJS and SocketIO.
 ### Plugin registration
 
 ```js
-var server = new hapi.Server();
-server.connection({ port: 3001, labels: 'myFirstServer' });
-server.connection({ port: 3002, labels: 'mySecondServer' });
-
-//[...]
-
-server.pack.register([{
-        register: require('hapio'),
-        options: {
-            connectionLabel: 'mySecondServer'
-        }
-    }],
-    function(err) {
-        if (err) throw err;
+const server = new Hapi.Server({
+    port: 3000,
+    host: 'localhost',
 });
- ```
 
-If you do not set the connectionLabel option, hapio will pick your first connection and bind socket.io on it.
+async function start() {
+    try {
+        await server.register(hapio, {
+            serverOptions: {
+                // socket.io options
+            }
+        });
+        await server.start();
+    } catch (e) {
+        console.error(e);
+    }
+}
+start();
+ ```
 
 ### Using hapio
 
 ```js
-var io = server.plugins.hapio.io;
+const io = server.plugins.hapio.io;
 
-io.on("connection", function(socket) {
-    console.log(socket.id + " connected !");
-    socket.on("test", function(e) {
+io.on('connection', function(socket) {
+    console.log(`${socket.id} connected !`);
+    socket.on('test', function(e) {
         console.log('Test received !');
     });
 });
@@ -48,8 +49,7 @@ io.on("connection", function(socket) {
 
 ### hapio options
 
- * `connectionLabel`: (*Not required/Defaults to an empty string*) Connection's label on which socket io will be attached to
- * `serverOptions`: (*Not required/Defaults to an empty object*) Options to pass to socket.io's constructor.
+ * `serverOptions`: (*Not required/Defaults to an empty object*) [Options to pass to socket.io's constructor](https://socket.io/docs/server-api/#new-server-httpserver-options).
 
 
 ### A great idea?
