@@ -29,11 +29,11 @@
     "socket.io": "^2.1.1"
   },
   "devDependencies": {
-    "code": "^5.1.0",
-    "coveralls": "^3.0.0",
-    "lab": "^15.1.0"
+    "code": "^5.2.0",
+    "coveralls": "^3.0.2",
+    "lab": "^16.1.0"
   },
   "peerDependencies": {
-    "hapi": "^17.0.0"
+    "hapi": "^17.6.0"
   }
 }
