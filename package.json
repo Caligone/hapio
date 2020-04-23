@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "code": "^5.1.0",
-    "coveralls": "^3.0.0",
+    "coveralls": "^3.0.14",
     "lab": "^17.0.0"
   },
   "peerDependencies": {
